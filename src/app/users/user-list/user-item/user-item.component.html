@@ -1,0 +1,5 @@
+<!--[class.active]="user.id == '0'"-->
+<a class="list-group-item list-group-item-action"
+   href="#"
+   [class.disabled]="user.deleted"
+>{{ user.firstName + ' ' + user.lastName + ' [' + getRoleName(user.role) + '] '  + (user.deleted?'(deleted)':'')}}</a>
