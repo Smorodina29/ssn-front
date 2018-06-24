@@ -6,6 +6,8 @@ import { HeaderComponent } from './header/header.component';
 import { UsersComponent } from './users/users.component';
 import { UserListComponent } from './users/user-list/user-list.component';
 import { UserItemComponent } from './users/user-list/user-item/user-item.component';
+import { UserDetailComponent } from './users/user-detail/user-detail.component';
+import { UserEditComponent } from './users/user-edit/user-edit.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { UserItemComponent } from './users/user-list/user-item/user-item.compone
     HeaderComponent,
     UsersComponent,
     UserListComponent,
-    UserItemComponent
+    UserItemComponent,
+    UserDetailComponent,
+    UserEditComponent
   ],
   imports: [
     BrowserModule
